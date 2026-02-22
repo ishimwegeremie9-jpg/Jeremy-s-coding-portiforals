@@ -1,0 +1,95 @@
+<!-- Header Section -->
+<header>
+    <h1>Welcome to My Personal Page</h1>
+    <p>Geremie's Personal Portfolio</p>
+</header>
+
+<!-- About Me Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is Geremie. I am a student who is interested in learning information technology.</p>
+    <p>I enjoy learning new skills that can help me become a professional web developer.</p>
+    <p>This page is created using only HTML as part of my assignment.</p>
+</section>
+
+<!-- Hobbies Section -->
+<section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Reading books</li>
+        <li>Learning web development</li>
+        <li>Listening to music</li>
+        <li>Watching educational videos</li>
+    </ul>
+
+    <h3>My Daily Routine</h3>
+    <ol>
+        <li>Wake up early</li>
+        <li>Study and attend classes</li>
+        <li>Practice coding</li>
+        <li>Rest and relax</li>
+    </ol>
+</section>
+
+<!-- Goals Section -->
+<section id="goals">
+    <h2>My Goals</h2>
+    <p>My goal is to become a skilled IT professional.</p>
+    <p>I want to build websites and applications that help people.</p>
+</section>
+
+<!-- Links Section -->
+<section id="links">
+    <h2>Useful Links</h2>
+    <p>
+        Visit <a href="https://www.wikipedia.org">Wikipedia</a> to learn new things.
+    </p>
+    <p>
+        Watch tutorials on 
+        <a href="https://www.youtube.com/@OFFjeremy-o4h" target="_blank">YouTube</a>.
+    </p>
+</section>
+
+<!-- Media Section -->
+<section id="media">
+    <h2>My Favorite Image</h2>
+    <img src="https://via.placeholder.com/300" alt="Sample image for personal portfolio">
+
+    <h2>Listen to Audio</h2>
+    <video controls width="400">
+        <source src="https://www.youtube.com/watch?v=5EUeCeW_PEU" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form method="POST" action="mailto:ishimwegeremie9@gmail.com">
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" value="ishimwegeremie9@gmail.com" required>
+        </p>
+
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2026 Geremie. All rights reserved.</p>
+    <p>Email: <a href="mailto:ishimwegeremie9@gmail.com">ishimwegeremie9@gmail.com</a></p>
+</footer>
